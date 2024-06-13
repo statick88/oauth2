@@ -1,0 +1,26 @@
+# Archivos ejecutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de compilación
+*.o
+*.obj
+
+# Archivos generados por el IDE
+.idea/
+.vscode/
+
+# Dependencias
+/vendor/
+/go.sum
+/go.mod
+
+# Archivos de registro
+*.log
+
+# Archivos de respaldo
+*~
+*.bak

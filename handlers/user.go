@@ -6,7 +6,7 @@ import (
     "database/sql"
     "fmt"
 
-    "github.com/username/oauth2/db"
+    "github.com/statick88/oauth2/db"
 )
 
 type User struct {

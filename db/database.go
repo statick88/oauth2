@@ -1,5 +1,3 @@
-// db/database.go
-
 package db
 
 import (
@@ -12,7 +10,7 @@ import (
 var DB *sql.DB
 
 func InitDB() (*sql.DB, error) {
-    dataSourceName := fmt.Sprintf("%s:%s@tcp(db:3306)/%s", "oauth2", "oauth2", "oauth2")
+dataSourceName := fmt.Sprintf("%s:%s@tcp(localhost:3306)/%s", "oauth2", "oauth2", "oauth2")
     db, err := sql.Open("mysql", dataSourceName)
     if err != nil {
         return nil, err
